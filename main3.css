@@ -1,0 +1,30 @@
+body{
+    height: 100%;
+    width: 100%;
+    
+    background-image: url("Urban\ Fashion\ Img/background.png");
+}
+#main{
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    font-size: 520%;
+    margin-bottom: 0%;
+}
+p{
+    position: relative;
+    margin-top: 30%;
+    margin-left: 10%;
+    font-size: 440%;
+}
+
+
+@media screen and (max-width : 768px) {
+    p{
+        position: relative;
+        margin-top: 60%;
+        margin-left: 10%;
+        font-size: 440%;
+    }
+}

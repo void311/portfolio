@@ -1,0 +1,119 @@
+*{
+    margin:0 ;
+     padding:0 ;
+}
+body
+{
+    height: 100%;
+    width: 100%;
+    background-image: url("Urban\ Fashion\ Img/background.png");
+    
+}
+.conatiner{
+    /* min-height: 100vh; */
+    height: 100%;
+    width: 100%;
+    background-image: url("Urban\ Fashion\ Img/background.png");
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+        
+}
+.navbar{
+ 
+    /* margin: auto; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+}
+.content{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d60;
+}
+.content p{
+    font-size: 20px;
+    color: #6a7199;
+}
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.content .btn{
+    display: inline-block;
+    background: linear-gradient( 45deg, #87adfe, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+     
+}
+.arrow-icons{
+    margin-top: 40px;
+    height: 50%;
+    width: 50%;
+    display: flex;
+}
+.feature-img{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 16px;
+}
+
+#image
+{   height: 10%;
+    width: 10%;
+    border-radius: 50%;
+}
+
+.bar_buttons
+{   
+    position: relative;
+    margin-left: 50%;
+}
+
+.butt
+{   
+    font-size: 1.5vw;
+}
+.social-links{
+    transform: rotate(-90deg);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* padding: 20px; */
+    left: -740px;
+    bottom: 800px;
+}
+.social-links a{
+    text-decoration: none;
+    color: #6a7199;
+    padding-right: 20px;
+    font-size: 14px;
+}
