@@ -80,10 +80,12 @@ nav ul li a{
     display: flex;
 }
 .feature-img{
-    height: 90%;
+    height: 70%;
     position: absolute;
     bottom: 0;
-    right: 16px;
+    margin-left: 70%;
+    /* align-items: right baseline; */
+    /* right: 0px; */
 }
 
 #image
