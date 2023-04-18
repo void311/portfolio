@@ -22,6 +22,9 @@ body
     position: relative;
         
 }
+#divv{
+    width : 40%
+}
 .content h1
 {
     overflow: hidden;
@@ -34,12 +37,13 @@ body
 }
 @keyframes type{
     from{width : 0}
-    to{ width : 30%}
+    to{ width : 50%}
 }
 @keyframes blink
 {
     from,to{border-color : transparent}
     50% {border-color: rgb(9, 206, 255);}
+    90%{border-color: transparent;}
 }
 
 .navbar{
@@ -150,7 +154,9 @@ nav ul li a{
 
 
 @media screen and (max-width : 937px) {
-    
+    #divv{
+        width : 60%
+    }
 nav ul li{
     display:block;}
     h1{
