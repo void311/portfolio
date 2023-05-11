@@ -10,7 +10,6 @@ body
     
 }
 .conatiner{
-    /* min-height: 100vh; */
     height: 100%;
     width: 100%;
     background-image: url("../Urban\ Fashion\ Img/background.png");
@@ -24,6 +23,9 @@ body
 }
 #divv{
     width : 40%
+}
+#text{
+    font-size: 100%;
 }
 .content h1
 {
@@ -47,47 +49,42 @@ body
 }
 
 .navbar{
- 
-    /* margin: auto; */
+  
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
 .logo{
-    width: 160px;
+    width: 10rem;
     cursor: pointer;
 }
 nav{
     
     flex: 1;
-    padding-left: 60px;
+    padding-left: 4rem;
 }
 
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 0px 20px;
+    margin: 0rem 1.2rem;
 }
 nav ul li a{
     text-decoration: none;
     color: #333;
 }
 .content{
-    font-size: 60px;
+    font-size: 4rem;
     font-weight: 100;
-    margin-top: 24px;
-    margin-bottom: 15px;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
     color: #232d60;
 }
 .content p{
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #6a7199;
-  
-
-    /* animation: 
-    type 3s steps(40, end),
-    blink.75s step-end infinite; */
+   
 
 }
 .content{
@@ -97,8 +94,8 @@ nav ul li a{
 .content .btn{
     display: inline-block;
     background: linear-gradient( 45deg, #87adfe, #ff77cd);
-    border-radius: 6px;
-    padding: 10px 20px;
+    border-radius: 0.5rem;
+    padding: 0.65rem 1.25rem;
     box-sizing: border-box;
     text-decoration: none;
     color: #fff;
@@ -106,7 +103,7 @@ nav ul li a{
      
 }
 .arrow-icons{
-    margin-top: 40px;
+    margin-top: 2.5rem;
     height: 50%;
     width: 50%;
     display: flex;
@@ -115,9 +112,7 @@ nav ul li a{
     height: 70%;
     position: absolute;
     bottom: 0;
-    margin-left: 70%;
-    /* align-items: right baseline; */
-    /* right: 0px; */
+    margin-left: 70%; 
 }
 
 #image
@@ -140,22 +135,24 @@ nav ul li a{
     transform: rotate(-90deg);
     position: relative;
     display: flex;
-    flex-direction: column;
-    /* padding: 20px; */
-    left: -740px;
-    bottom: 800px;
+    flex-direction: row; 
+    left: -42.5rem;
+    bottom: 50rem;
 }
 .social-links a{
     text-decoration: none;
     color: #6a7199;
-    padding-right: 20px;
-    font-size: 14px;
+    padding-right: 1.25rem;
+    font-size: 1rem;
 }
 
 
 @media screen and (max-width : 937px) {
     #divv{
         width : 60%
+    }
+    #text{
+        font-size: 60%;
     }
 nav ul li{
     display:block;}
